@@ -50,7 +50,13 @@ function App() {
   return (
     <Layout>
       <div className="flex flex-col items-center justify-center">
-        <div className="bg-pink-200 rounded-full w-24 h-24"></div>
+        <div className="w-24 h-24 rounded-full overflow-hidden bg-pink-200 flex items-center justify-center mb-2">
+          <img
+            src="/Girly.png"
+            alt="Profile"
+            className="object-cover w-full h-full"
+          />
+        </div>
         <h1 className="text-4xl font-playfair text-primary mb-4">🎀 My Girly Task Manager 🎀</h1>
 
         <div className="bg-white rounded-2xl shadow-xl p-6 w-full max-w-md">
