@@ -1,6 +1,9 @@
+import ThemeToggle from "./ThemeToggle";
+
 const Navbar = () => (
-  <nav className="bg-pink-300 p-4 text-white font-bold text-center">
-    💖 Girly Task Manager
+  <nav className="flex justify-between items-center p-4 bg-pink-200 dark:bg-gray-800 text-pink-900 dark:text-white">
+    <h1 className="font-playfair text-xl">💖 Girly Task Manager</h1>
+    <ThemeToggle />
   </nav>
 );
 
