@@ -52,7 +52,7 @@ function App() {
       <div className="flex flex-col items-center justify-center">
         <div className="w-24 h-24 rounded-full overflow-hidden bg-pink-200 flex items-center justify-center mb-2">
           <img
-            src="/Girly.png"
+            src="https://cdn-icons-png.flaticon.com/512/6625/6625896.png"
             alt="Profile"
             className="object-cover w-full h-full"
           />
