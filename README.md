@@ -83,6 +83,8 @@ src/
 
 This project can be easily deployed to:
 
+https://week3-c34m36zpd-andiswa-cyria-molangathi-s-projects.vercel.app/
+
 * **Vercel**
 * **Netlify**
 * **GitHub Pages (with Vite config tweak)**
